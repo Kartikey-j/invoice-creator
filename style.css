@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700');
+
+*{
+    color: #ffff;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(23, 22, 22);
+    width: 500px;
+    border: 0px solid black;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h1{
+    margin: 20px 0px;
+    font-weight: 800;
+    font-family:  Courier, monospace;
+}
+
+p{
+    margin: 5px 0px;
+}
+
+div#heading{
+    background-color: rgba(69, 104, 203, 0.7);
+    padding: 10px 10px;
+    border-radius: 4px 4px 0px 0px;
+    padding-bottom: 30px;
+
+}
+
+div.flexbox-here{
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div#services{
+    display: flex;
+    justify-content: space-around;
+}
+
+button#pull-weeds,
+button#car-wash,
+button#mow-lawn
+{
+    border: 0px solid rgb(210, 212, 241);
+    border-radius: 8px;
+    color: black;
+    background-color: rgb(210, 212, 241);
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div#main-content{
+    background-color: rgb(33, 41, 54);
+    border-radius: 0px 0px 4px 4px;
+}
+
+div#total-bill{
+    display: flex;
+    justify-content: space-around;
+}
+
+button#invoice{
+    color: rgb(0, 0, 0);
+    background-color: rgba(69, 104, 203, 0.7);
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 10px 195px;
+    border: 0px solid rgba(69, 104, 203, 1);
+    border-radius: 5px;
+}
+
+hr{
+    margin: 10px 20px;
+}
+
+div#bill-here{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+p.bill-text,
+p.cost
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    flex-basis: 50%;
+    margin-top: 10px;
+}
+
+div#final{
+    display: flex;
+    justify-content: space-around;
+}
+
+p.small-text{
+    font-size: small;
+
+}
+
+P#final-sum{
+    font-size: 30px;
+}
+
+p.total{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
